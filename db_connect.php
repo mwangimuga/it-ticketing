@@ -1,8 +1,8 @@
 <?php
-$host = 'mysql-3821ecf4-mwangimuga161-f0ec.b.aivencloud.com';
+$host = 'monorail.proxy.rlwy.net:55589';
 $db   = 'defaultdb';
-$user = 'avnadmin'; // Change as needed based on environment
-$pass = '<redacted>'; // Change as needed
+$user = 'root'; // Change as needed based on environment
+$pass = 'eOoWEWYwYVinHHiWxBYwuwCChMVNfIxC'; // Change as needed
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
