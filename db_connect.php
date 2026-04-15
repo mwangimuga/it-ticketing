@@ -1,8 +1,8 @@
 <?php
-$host = '127.0.0.1';
-$db   = 'it_ticketing_system';
-$user = 'root'; // Change as needed based on environment
-$pass = ''; // Change as needed
+$host = 'mysql-3821ecf4-mwangimuga161-f0ec.b.aivencloud.com';
+$db   = 'defaultdb';
+$user = 'avnadmin'; // Change as needed based on environment
+$pass = '<redacted>'; // Change as needed
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
