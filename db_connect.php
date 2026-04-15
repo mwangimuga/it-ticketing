@@ -18,6 +18,9 @@ if ($is_localhost) {
     $dbname = "railway";
 }
 
+echo "Attempting to connect to: " . ($is_localhost ? "LOCAL XAMPP" : "REMOTE RAILWAY") . "<br>";
+echo "Host: " . $host . " Port: " . $port;
+
 try {
     // Data Source Name (DSN)
     $dsn = "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4";
